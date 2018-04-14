@@ -7,7 +7,7 @@ class A2_Prime_Numbers_in_given_range {
         return true;
     }
     int printPrime(int begin,int end) {
-        //zero negative numbers to reduce cpu cycles.
+        //zero negative variables to reduce cpu cycles.
         if(begin<0) begin=0;
         if(end<0) end=0;
         if(m==0 && n==0) System.out.println("Prime numbers cannot exist in the given range");
