@@ -1,4 +1,4 @@
-//Incomplete. Java applets have now become obsolete and are no longer used
+//Incomplete. Java applets are now obsolete and are no longer used
 
 
 import java.applet.*;
