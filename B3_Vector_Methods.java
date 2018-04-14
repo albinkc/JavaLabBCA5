@@ -1,10 +1,10 @@
 import java.util.*;
 
-class B3_Vector_Methods{
+class B3_Vector_Methods {
     public static void main(String[] args) {
         Vector<String> v=new Vector<String>();
         int l=args.length;
-        for(int i=0;i<args.length;i++){
+        for(int i=0;i<args.length;i++) {
             v.addElement(args[i]);
         }
         System.out.println(v.size());
@@ -13,7 +13,7 @@ class B3_Vector_Methods{
         int s=v.size();
         String str[]=new String[s];
         v.copyInto(str);
-        for(int i=0;i<s;i++){
+        for(int i=0;i<s;i++) {
             System.out.print(str[i]+" ");
         }
     }

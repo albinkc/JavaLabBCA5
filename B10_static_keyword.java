@@ -1,22 +1,22 @@
-class ABC{
+class ABC {
     int a;
     //static variables are initialized to zero in Java
     static int k;
-    void get(int x){
+    void get(int x) {
         a=x;
         k++;
     }
-    void put(){
+    void put() {
         System.out.println("Normal Function");
         System.out.println(a);
     }
-    static void show(){
+    static void show() {
         System.out.println("Static Function");
         System.out.println(k);
     }
 }
 
-class B10_static_keyword{
+class B10_static_keyword {
     public static void main(String[] args) {
         ABC ob1=new ABC();
         ob1.get(100);

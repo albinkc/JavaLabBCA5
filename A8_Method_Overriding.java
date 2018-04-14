@@ -1,27 +1,27 @@
-abstract class Dept{
+abstract class Dept {
     double salary,bonus;
     abstract void calcBonus(double sal);
-    void displayBonus(){
+    void displayBonus() {
         System.out.println("Salary = "+salary);
         System.out.println("Bonus = "+bonus);
     }
 }
 
-class Sales extends Dept{
-    void calcBonus(double sal){
+class Sales extends Dept {
+    void calcBonus(double sal) {
         salary=sal;
         bonus=salary*0.2;
     }
 }
 
-class Purchases extends Dept{
-    void calcBonus(double sal){
+class Purchases extends Dept {
+    void calcBonus(double sal) {
         salary=sal;
         bonus=salary*0.4;
     }
 }
 
-class A8_Method_Overloading{
+class A8_Method_Overloading {
     public static void main(String[] args) {
         Sales ob1=new Sales();
         ob1.calcBonus(30000);

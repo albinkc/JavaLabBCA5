@@ -3,8 +3,8 @@
 import java.awt.*;
 import java.applet.*;
 
-public class B8_Graphics_Class_Methods extends Applet{
-    public void paint(Graphics g){
+public class B8_Graphics_Class_Methods extends Applet {
+    public void paint(Graphics g) {
         g.setColor(Color.RED);
         g.drawLine(20, 20, 100, 100);
         g.drawRect(125,125,175,175);

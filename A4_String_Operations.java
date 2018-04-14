@@ -1,4 +1,4 @@
-class A4_String_Operations{
+class A4_String_Operations {
     public static void main(String[] args) {
         String str1=new String("NewHorizon");
         String str2=new String("JavaProgramming");

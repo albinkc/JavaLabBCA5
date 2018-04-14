@@ -7,13 +7,13 @@ import java.awt.event.*;
 
 import com.sun.xml.internal.ws.wsdl.writer.TXWContentHandler;
 
-public class A7_Student_Report extends Applet implements ActionListener{
+public class A7_Student_Report extends Applet implements ActionListener {
     Label lblTitle, lblRegNo, lblName, lblJava, lblSE, lblCA, lblBI, lblMP;
     TextField txtRegNo, txtName, txtJava, txtSE, txtCA, txtBI, txtMP;
     Button cmdReport;
     float total;
     float avg;
-    public void init(){
+    public void init() {
         lblTitle=new Label("Enter Student Details");
         lblRegNo=new Label("Register No.");
         lblName=new Label("Name");

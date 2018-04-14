@@ -1,28 +1,28 @@
-class A extends Thread{
-    public void run(){
-        for(int i=1;i<=5;i++){
+class A extends Thread {
+    public void run() {
+        for(int i=1;i<=5;i++) {
             System.out.println("Thread A Run "+i);
         }
     }
 }
 
-class B extends Thread{
-    public void run(){
-        for(int i=1;i<=5;i++){
+class B extends Thread {
+    public void run() {
+        for(int i=1;i<=5;i++) {
             System.out.println("Thread B Run "+i);
         }
     }
 }
 
-class C extends Thread{
-    public void run(){
-        for(int i=1;i<=5;i++){
+class C extends Thread {
+    public void run() {
+        for(int i=1;i<=5;i++) {
             System.out.println("Thread C Run "+i);
         }
     }
 }
 
-class B6_Thread_Priority{
+class B6_Thread_Priority {
     public static void main(String[] args) {
         A ob1=new A();
         B ob2=new B();
