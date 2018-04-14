@@ -1,4 +1,4 @@
-//Note: Applets are now deprecated
+//Note: Applets are now deprecated. Ask your university to update syllabus.
 
 import java.awt.*;
 import java.applet.*;
